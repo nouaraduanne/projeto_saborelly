@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body section {
+    background-color: #949292;
+    padding: 2px;
+    margin: -15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+body section div {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin: 20px;
+    height: 150px;
+    width: 300px;
+    margin-left: 15px;
+}
+@media all and (min-width: 760px){
+    body section {
+        display: grid;
+        justify-items: center;
+    }
+    body section div {
+        margin-bottom: 50px;
+        width: 500px;
+    }
+    body section div iframe {
+        margin-top: -35px;
+        margin-left: -50px;
+        width: 600px;
+        height: 200px;
+    }
+}
+@media all and (min-width: 1300px){
+    body section div iframe {
+        width: 800px;
+    }
+}
+@media all and (min-width: 1920px){
+    body section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "esq dir";
+    }
+    body section div.esq {
+        grid-area: esq;
+        height: 580px;
+    }
+    body section div.dir {
+        grid-area: dir;
+        margin-top: 50px;
+        margin-left: -75px;
+    }
+    body section div.dir iframe {
+        height: 500px;
+    }
+}

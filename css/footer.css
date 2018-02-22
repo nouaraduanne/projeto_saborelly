@@ -1,0 +1,9 @@
+footer {
+    margin: -25px;
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    background-color:#575757;
+    color: white;
+}
