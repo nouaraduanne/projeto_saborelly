@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 body {
     text-align: center;
     background-image: url(index2.jpeg);
@@ -7,7 +7,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     margin-top: 120px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
 }
 button {
     margin: 20px;
